@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Welcome To Mitho Momments</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- 🌟 Custom Styles -->
+    <style>
+      body {
+        background: linear-gradient(135deg, #fff0e1, #ffe5b4, #ffcba4);
+        min-height: 100vh;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .jumbotron {
+        background: #ffffffee;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        padding: 40px;
+        margin: 50px auto;
+        max-width: 800px;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 2.8rem;
+        font-weight: bold;
+        background: linear-gradient(to right, #ff512f, #dd2476);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
+        transition: all 0.3s ease-in-out;
+      }
+      .jumbotron h1:hover {
+        transform: scale(1.05);
+        text-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      }
+      .jumbotron .lead {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        color: #444;
+      }
+      .button-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 20px;
+      }
+      .jumbotron a.btn {
+        padding: 12px 30px;
+        font-size: 1.1rem;
+        border-radius: 50px;
+        font-weight: 600;
+        border: none;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
+      .jumbotron a.btn:hover {
+        transform: scale(1.1);
+        opacity: 0.95;
+      }
+      .btn-customer {
+        background-color:black;
+        color: white;
+      }
+      .btn-admin {
+        background-color: black;
+        color: white;
+      }
+      .btn-employee {
+        background-color:black;
+        color: white;
+      }
+      .jumbotron hr {
+        margin: 30px 0;
+      }
+      .jumbotron footer {
+        margin-top: 20px;
+        color: #666;
+      }
+      .jumbotron p {
+        font-size: 1rem;
+        margin: 8px 0;
+      }
+      .jumbotron a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      .jumbotron a:hover {
+        text-decoration: underline;
+      }
+      @media (max-width: 600px) {
+        .jumbotron h1 {
+          font-size: 2rem;
+        }
+        .button-group {
+          flex-direction: column;
+          align-items: center;
+        }
+        .jumbotron a.btn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to Mitho Moments – Every Bite a Memory!</h1>
+      <div class="button-group">
+        <a class="btn btn-customer btn-lg" href="/shop" role="button">👤 Customer</a>
+        <a class="btn btn-admin btn-lg" href="/admin" role="button">🔑 Admin</a>
+        <a class="btn btn-employee btn-lg" href="/admin" role="button">👨‍🍳 Employee</a>
+      </div>
+      
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
